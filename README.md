@@ -5,3 +5,4 @@ This Full stack Video app i created utilizing the MERN stack is an educational v
 This application is a comprehensive platform built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to explore educational videos with the added advantage of a personalized experience after signing up. The backend handles user registration, authentication, and data management, while the frontend ensures a responsive and intuitive user interface.
 
 # Tech Stack
+* Node.js

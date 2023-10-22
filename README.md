@@ -40,13 +40,48 @@ This application is a comprehensive platform built using the MERN (MongoDB, Expr
 ![Screenshot 2023-10-22 011428](https://github.com/Ade-212/Video-App-platform/assets/143139190/80944cd5-4417-4d63-9e97-6a46490e295b)
 
 
+# How to install and Run the Project
+* Clone the repository:
 
+git clone [repository-url]
 
+* Navigate to the project directory:
 
+cd [project-directory]
 
-# Installation
-# Backend:
-* Navigate to the backend folder.
-* Install the necessary npm packages by running "npm install"
-* Set up a MongoDB database and get your individual connection string
-* Create a '.env' file in the backend folder with the following
+* Installing Backend Dependencies:
+* Navigate to the backend directory and install the necessary libraries:
+
+cd backend
+npm install express mongoose jwt-simple bcryptjs joi dotenv cors
+
+* Installing Frontend Dependencies:
+* Navigate to the frontend directory and install the necessary libraries:
+
+cd client
+npm install react react-dom axios react-router-dom
+
+* Setting up Environment Variables:
+* In the backend directory, create a .env file and set up your environment variables such as:
+
+DB_CONNECTION=your_mongodb_uri
+TOKEN_SECRET=your_secret_key
+PORT=5000
+
+* Running the Backend:
+* In the backend directory:
+
+npm start
+Running the Frontend:
+
+* In the frontend (client) directory:
+
+npm start
+Open a browser and navigate to http://localhost:3001 to view the application.
+
+# Contributing:
+* Fork the repository.
+* Create a new branch: 'git checkout -b branch-name'.
+* Commit changes: 'git commit -m' .
+* Push to the branch: 'git push origin branch name'
+

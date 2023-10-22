@@ -28,6 +28,22 @@ This application is a comprehensive platform built using the MERN (MongoDB, Expr
 * Protected Routes: Some routes are protected and only authenticated users can access them
 * Responsive design: The design of this project is responsive and works on both desktop and mobile devices
 
+# Screenshots:
+# Img 1/Register page:
+![Screenshot 2023-10-22 011305](https://github.com/Ade-212/Video-App-platform/assets/143139190/d793fec8-07ea-4c2b-a54a-3dd6848b84ad)
+
+# Img 2/Login page:
+![Screenshot 2023-10-22 011326](https://github.com/Ade-212/Video-App-platform/assets/143139190/d54c090a-9073-4459-8f02-33950cd499c9)
+
+# Img 3/ Platform page:
+![Screenshot 2023-10-22 011350](https://github.com/Ade-212/Video-App-platform/assets/143139190/839c2e72-d216-4e7b-8fb2-8e85e64469d5)
+![Screenshot 2023-10-22 011428](https://github.com/Ade-212/Video-App-platform/assets/143139190/80944cd5-4417-4d63-9e97-6a46490e295b)
+
+
+
+
+
+
 # Installation
 # Backend:
 * Navigate to the backend folder.

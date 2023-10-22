@@ -85,3 +85,4 @@ Open a browser and navigate to http://localhost:3001 to view the application.
 * Commit changes: 'git commit -m' .
 * Push to the branch: 'git push origin branch name'
 
+If you have any questions feel free to reach out to me via email: Ade.212@outlook.com

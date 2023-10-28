@@ -2,7 +2,6 @@ import styles from './stylesregister.module.css';
 import { useNavigate } from 'react-router-dom';  // importing useNavigate hook
 import axios from 'axios';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 function Signup() {
     const [data, setData] = useState({

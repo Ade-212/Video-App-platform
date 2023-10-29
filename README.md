@@ -16,6 +16,8 @@ This application is a comprehensive platform built using the MERN (MongoDB, Expr
 * joi: This a library used for Data Validation
 * dotenv: Environemnt variable loader
 
+
+
 * Frontend
 * React.js: This is a JavaScript library for building user interfaces
 * Axios: Promise-based HTTP client for JavaScript

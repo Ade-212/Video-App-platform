@@ -20,7 +20,6 @@ function Login(props) {
       
       if (response.data && response.data.data) {
         // Assuming the token is saved in localStorage for simplicity
-        // For more security, consider other methods such as HttpOnly cookies
         localStorage.setItem('authToken', response.data.data);
 
         // Using navigate function to redirect to the platform page

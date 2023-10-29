@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://wallpaperaccess.com/full/2718707.jpg'); /* Replace with your background image */
+    background-image: url('https://wallpaperaccess.com/full/2718707.jpg'); 
     background-size: cover;
     background-position: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,18 +11,20 @@ body {
     min-height: 100vh;
   }
   
-  #loginForm {
-    text-align: center;
-    padding: 20px;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.9); 
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  @media screen and (max-width: 768px) {
+    #loginForm {
+      text-align: center;
+      padding: 15px;
+      max-width: 90%;
+      background-color: rgba(255, 255, 255, 0.9); 
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    }
   }
   
   #loginForm h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 15px;
     color: #333; /* Text color */
   }
   
@@ -34,9 +36,9 @@ body {
   
   #loginForm input[type="text"],
   #loginForm input[type="password"] {
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px 0;
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px 0;
     border: 2px solid #ccc; /* Border style */
     border-radius: 5px;
     background-color: #f8f8f8; /* Input background color */
@@ -49,9 +51,9 @@ body {
   }
   
   #loginForm button[type="submit"] {
-    font-size: 25px;
-    padding: 10px 20px;
-    margin: 10px 0;
+    font-size: 20px;
+    padding: 8px 15px;
+    margin: 8px 0;
     border: none;
     border-radius: 5px;
     background-color: #007BFF; /* Button background color */

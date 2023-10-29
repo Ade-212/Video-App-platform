@@ -26,7 +26,7 @@ function VideoPlatform() {
     return (
         <div>
             <header>
-                <h1>Find your Science videos</h1>
+                <h1>Youtube API</h1>
                 <button onClick={handleLogout} clasName={styles.logout}>Logout</button>
             </header>
             <input 

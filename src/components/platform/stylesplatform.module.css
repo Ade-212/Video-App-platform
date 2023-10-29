@@ -17,7 +17,6 @@ body {
     letter-spacing: 2px;
   }
   
-  /* Adjust ID selectors to class or element selectors as needed */
   
   input[type="text"] {
     font-size: 18px;
@@ -51,7 +50,6 @@ body {
     background-color: #555; /* Hovered button background color */
   }
   
-  /* Since we are now using classes instead of IDs for React components, you might want to use class selectors */
   
   .video-container {
     background-color: transparent; /* No background color */
@@ -59,16 +57,23 @@ body {
     text-align: center;
     padding: 20px;
   }
+
+  @media screen and (max-width: 768px) {
+    input[type="text"] {
+      width: 95%; /* full-width on mobile with room for margin */
+      margin-right: 5px;
+    }
+  }
   
   .video-container div {
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect */
     background-color: #fff; 
-    width: calc(33.33% - 40px);
+    width: calc(100% - 40px);
   }
   
   .video-container div img {
